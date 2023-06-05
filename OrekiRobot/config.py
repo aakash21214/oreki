@@ -14,30 +14,30 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "123458494"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5534661034  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Gtashxd"
-    SUPPORT_CHAT = "Gtash_Associasion"  # Your own group for support, do not add the @
+    API_ID = 12916125  # integer value, dont use ""
+    API_HASH = "dfebf9cc52b859771cf8a1d447e751a5"
+    TOKEN = "6212279244:AAH7kw4PQhgGyuQPE7h3d0_2pamy7J-R4cc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1651746145  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "akash8911"
+    SUPPORT_CHAT = "erensupportgroup"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001852609544
+        -1001913986602
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001852609544
+        -1001870473331
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://tluamgmb:wzHC-TipPrkuPGtbqHUpVNeGpqicuQCV@castor.db.elephantsql.com/tluamgmb"  # needed for any database modules
-    DB_URL = "postgresql://postgres:IE2wA6q9yKhLpaqeJ0RT@containers-us-west-17.railway.app:5819/railway"
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    DB_URL = ""
     REDIS_URL = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = "P5_FWlwgUrpchwJceZDUSDxa41G396dn7J0vSEMWeBhHJ6C4q8VJLzjhfZPxNKUZ"  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_API = "IdAqMkvkK8IC6YvmuSmZqIlTAnb09T43kvRXzKHWUpiKMWd_qV9mgmMFQ~HNHVrM"  # go to support.spamwat.ch to get key
+    SPAMWATCH_SUPPORT_CHAT = "@erensupportgroup"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
@@ -97,17 +97,17 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "12345abcdefg23459"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5534661034  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Gtashxd"
-    SUPPORT_CHAT = "Gtash_Association"  # Your own group for support, do not add the @
+    API_ID = 12916125  # integer value, dont use ""
+    API_HASH = "dfebf9cc52b859771cf8a1d447e751a5"
+    TOKEN = "6212279244:AAH7kw4PQhgGyuQPE7h3d0_2pamy7J-R4cc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1651746145  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "akash8911"
+    SUPPORT_CHAT = "erensupportgroup"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001852609544
+        -1001913986602
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001852609544
+        -1001870473331
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -118,8 +118,8 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = "P5_FWlwgUrpchwJceZDUSDxa41G396dn7J0vSEMWeBhHJ6C4q8VJLzjhfZPxNKUZ"  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_API = "IdAqMkvkK8IC6YvmuSmZqIlTAnb09T43kvRXzKHWUpiKMWd_qV9mgmMFQ~HNHVrM"  # go to support.spamwat.ch to get key
+    SPAMWATCH_SUPPORT_CHAT = "@erensupportgroupt"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
